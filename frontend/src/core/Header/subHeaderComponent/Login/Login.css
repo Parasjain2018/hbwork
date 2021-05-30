@@ -1,0 +1,126 @@
+#root{
+    height: 100%;
+    width: 100%;
+  }
+  html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .login{     
+    width: 100%;
+    height: 100%;
+    background-color: #e5e5e5;
+  }
+  .login-grid-container{  
+    display: grid;
+    grid-template-columns: auto auto;
+  
+    position: absolute;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box; 
+  
+    width: 945px;
+  } 
+  .login-image{
+    height: 100%;
+  }
+  .login-heading{
+    color: rgba(0, 0, 0, 0.5);    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+  }
+  .login-Socal-Media{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .login-Socal-Media button{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 163px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;    
+  }
+  .login-social-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }  
+  .login-fb{
+    display: flex;
+    align-self: center;
+  }
+  .login-Authorization{
+      width:100%;
+      display: grid;
+      grid-row: auto auto;
+      justify-items: center;
+  }
+  .login-email-sidebar{
+    width: 2%;
+    height: 100%;
+    margin-left: -0.4%;
+    background-color: #FF4208;
+  }
+  .login-Authorization-input { 
+    margin-left: 5%;   
+    width: 80%;
+    display: flex;
+    align-self: center;
+    border-style: hidden;
+    color: rgba(0, 0, 0, 0.5);   
+    }
+  .login-Authorization-placeholders {
+    width: 60%;
+    height: 51px;
+    display: flex;
+    align-content: center;
+   
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+
+  }
+  .login-Intent-ForgotPassword button{
+    background: transparent;
+    border: transparent;
+  }  
+  .login-Intent-Authenication{
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .login-image{
+      display: none;
+    }
+    .login{
+      margin: 0;
+      width: 100%;
+    }
+    .login-grid-segment{
+      height: 100%;
+      width: 100%;
+    }
+    .login-grid-container {  
+      display: grid;
+      width: 100%;
+      grid-template-columns: auto;
+    }
+  }
+
+  
+  

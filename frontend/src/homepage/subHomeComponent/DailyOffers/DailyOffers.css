@@ -1,0 +1,88 @@
+.react-multi-carousel-item{
+    position: relative;
+    left: 70px;
+}
+
+/* .offer-round-image{
+    margin: 0 100px;
+} */
+
+.daily-offers-text h1 {
+    position: relative;
+    font-size: 35px;
+    font-family: Montserrat;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -5.5%;
+    color: #000000;
+    
+}
+.daily-offers-text h1:before, .daily-offers-text h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 2.5px;
+    content: '\a0';
+    background-color: black;
+}
+.daily-offers-text h1:before {
+    margin-left: -50.5%;
+    text-align: right;
+}
+.daily-offers-text h1:after {
+    margin-left: 0.5%;
+    text-align: right;
+}
+.Slider-offer{
+    border: 1.5px solid #FF4208;
+    box-sizing: border-box;
+    margin: 3% 9%;
+    margin-bottom: 0!important;
+}
+.offer-round-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #FF4208;
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3)  {
+    .Daily-offers{
+        margin-top: 5%;
+    }
+    .daily-offers-text h1{
+        font-size: 22px;
+        font-family: Montserrat;
+        text-align: center;
+        margin-top: 10%;
+        color: #000000;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Sub-slider{
+        margin: 3% 0 3%;
+    }
+    .offer-round-image{
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+    .Daily-offers{
+        margin-top: -25%;
+    }
+    .daily-offers-text h1{
+        font-size: 22px;
+        font-family: Montserrat;
+        text-align: center;
+        margin-top: 10%;
+        color: #000000;
+    }
+    .react-multi-carousel-item{
+        position: relative;
+        left: 20px;
+    }
+}

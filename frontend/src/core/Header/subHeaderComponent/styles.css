@@ -1,0 +1,97 @@
+/*  Shop  */
+.Shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.shop-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+
+.shop-image{
+    
+    width: 100%;
+    height: auto;
+}
+
+/*.shop-category {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 25px;
+    color: #000000;
+    float: left;
+    clear: both;
+}
+.shop-type {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    color: #000000;
+    float: left;
+    clear: both;
+    margin: 10px 0px;
+}
+*/
+/*  Themes  */
+.theme-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.Themes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.theme-image{
+    width: 100%;
+    height: auto;
+}
+
+/*  Offers  */
+
+.Offers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.offer-image {
+    width: 100%;
+    height: auto;
+}
+.offers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+
+
+/* Spotlight */
+.Spotlight {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.spotlight-image {
+    width: 100%;
+    height: auto;
+}
+.spotlight-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}

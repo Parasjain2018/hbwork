@@ -1,0 +1,405 @@
+.Register{
+    overflow: hidden;
+    font-family: Montserrat;  
+
+}
+.signup-form{
+    margin-top:-170%;
+    position: relative;
+}
+.cross-option{
+    font-size: 20px;
+    margin-left:-12%;
+}
+.register-text p{
+    font-size:32px ;
+    margin-left:2% ;
+}
+.journey-text p{
+    color:rgba(0, 0, 0, 0.5);
+     margin-left: 8.5%;
+     margin-top: -3%;
+}
+.or-text p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 29%;
+}
+
+.Register-grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3.75%;
+    position: absolute;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 945px;
+    height: 805px;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Name-input input{
+    padding: 3%;
+    width: 33.5%;
+    border:1px solid rgba(0, 0, 0, 0.6);
+    margin-left: -3%;
+    margin-right: 30px;
+}
+.other-details-input input{
+    padding: 3%;
+    width: 70%;
+    border:1px solid rgba(0, 0, 0, 0.6);   
+    margin-left:-3% ; 
+}
+.white-background img{
+    margin-left: -15%;
+    height: 80%;
+    width:95.25%;
+}
+.image img{
+    height: 100%;
+    width:106%;
+    margin-left: -13.5%;
+}
+.Register-form{
+    width: 100%;
+    margin-left: 15%;
+    
+}
+.gender p{
+    margin-left: -45%;
+    flex-direction: row; 
+    
+}
+.gender button{
+    margin-left: 4%;
+    padding: 3%;
+    width: 15%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.sign-up button{
+    width: 70%;
+    margin-left: -1%;
+   
+    padding: 3%;
+    color: white;
+    background-color:  #FF4208;
+    text-align: center;
+    border: none;
+}
+.Social-media button{
+    padding: 3%;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-left: -4.5%;
+    width: 35%;
+    margin-right: 7%;
+}
+.social-media-grid-facebook{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    
+}
+.facebook img{
+    width: 15px;
+    height: 15px;
+}
+.google img{
+    width: 15px;
+    height: 15px;
+}
+.social-media-grid-google{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.login-text p{
+    margin-left: 18%;
+    margin-top: 1%; 
+}
+
+.emails p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    margin-top: 1%;
+}
+.toggle {
+    margin-top: -9%;
+    margin-left: -3%;
+    outline: none;
+    
+}
+.switch {
+    outline: none;
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    bottom:35px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ecf0f1;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color:  #FF4208;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:  #FF4208;
+  }
+
+  input:checked + .slider:before {
+    background-color: #ecf0f1;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(21px);
+    -ms-transform: translateX(21px);
+    transform: translateX(21px);
+  }
+  .slider.round {
+    border-radius: 19px;
+    outline: none;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+.cross-option{
+    display: none;
+}
+.Register{
+    font-family: Montserrat;
+    border: none;
+}
+.signup-form{
+    margin-left: -45%;
+    margin-top: -117%;
+}
+.white-background img{
+    margin-left: -35%;
+    height: 100%;
+    width:70%;
+    border: 1px solid black;
+}
+.image{
+    display: none;
+}
+.Register-form{
+    margin-left: 10%;
+    width: 100%;
+    border: none;
+}
+.Register-grid-container{
+    border: none;
+}
+.register-text p{
+    font-size: 17px;
+ margin-left: 20%;
+}
+.journey-text p{
+    font-size: 12px;
+    margin-left: 17%;
+    margin-top:-2.5%;
+}
+.Social-media{
+    margin-left: ;
+}
+.Social-media button{
+    margin-left: 14%;
+    padding: 1%;
+    width: 15%;
+    
+    margin-right: -80px;
+}
+.facebook{
+    font-size: 10px;
+}
+.google{
+    font-size: 10px;
+}
+.social-media-grid-facebook{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.social-media-grid-google{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.or-text p{
+    font-size: 10px;
+    margin-left: 29%;
+    margin-top:-1%;
+}
+.Name-input input{
+    
+    padding: 0.5%;
+    width: 15.5%;
+    margin-left: 13.5%;
+    margin-top: -1%;
+    margin-right: -75px;
+}
+.other-details-input p{
+    
+    width: 48%;
+    margin-left: 14.8%;
+    margin-top: -1%;
+}
+.gender p{
+    font-size: 10px;
+    margin-left: -49%;
+    margin-top: -1.5%;
+}
+.gender button{
+    width: 6%;
+ padding: 1%;
+ margin-right: -3%;
+
+}
+.sign-up button{
+    width: 25%;
+    margin-left: 17%;
+    padding: 1%;
+    position: absolute;
+    bottom:40px;
+    
+    
+}
+.toggle{
+    margin-top: -5%;
+    margin-left:13%;
+   
+}
+.emails p{
+    font-size: 10px;
+   margin-top: -1%;
+ margin-left: 25%;
+ 
+}
+.login p{
+    margin-left: 25%;
+    font-size: 10px;
+    margin-top: 3%;
+   
+}
+}
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .cross-option{
+        display: none;
+    }
+    .Register{
+        font-family: Montserrat;
+        border: none;
+    }
+    .image{
+        display: none;
+    }
+    .Register-form{
+        margin-left: 10%;
+        width: 100%;
+        border: none;
+    }
+    .Register-grid-container{
+        border: none;
+    }
+    .register-text p{
+     margin-left: 15%;
+    }
+    .journey-text p{
+        margin-left: 18%;
+        margin-top:-5%;
+    }
+    .Social-media{
+        margin-left: ;
+    }
+    .Social-media button{
+        margin-left: 10%;
+        padding: 2%;
+        width: 27%;
+        margin-right: 5px;
+    }
+    .social-media-grid-facebook{
+        
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .social-media-grid-google{
+        
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .or-text p{
+        margin-left: 40%;
+    }
+    .Name-input input{
+        padding: 2%;
+        width: 25%;
+        margin-left: 10%;
+        margin-top: 1%;
+        margin-right: -15px;
+    }
+    .other-details-input p{
+        padding: 2%;
+        width: 87%;
+        margin-left: 10.5%;
+        margin-top: 1.5%;
+    }
+    .gender p{
+        margin-left: 10%;
+    }
+    .gender button{
+        width: 25%;
+     padding: 2%;
+    }
+    .sign-up button{
+        width: 67%;
+        margin-left: 10%;
+        padding: 3.5%;
+    }
+    .toggle{
+        margin-left: 10%;
+    }
+    .emails p{
+     margin-left: 27%;
+     
+    }
+    .login p{
+        margin-left: 30%;
+    }
+}

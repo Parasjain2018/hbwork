@@ -1,0 +1,10 @@
+.Homepage {
+  width: 100%;
+}
+
+.heading-homepage{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5% 0!important;
+}
